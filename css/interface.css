@@ -1,0 +1,41 @@
+body {
+	background-color: #222;
+	color: gray;
+	padding-top: 60px;
+}
+#log {
+	list-style: none;
+	margin: .5em;
+	padding: .5em;
+	border: 1px solid white;
+	border-radius: 5px;
+	color: #aaa;
+	background-color: #222;
+}
+.timestamp {
+	font-family: monospace, Courier;
+	margin-right: 1em;
+}
+.threat {
+	color: white;
+}
+.white {
+	color: white;
+	font-weight: bold;
+}
+.blue {
+	color: blue;
+	font-weight: bold;
+}
+.red {
+	color: red;
+	font-weight: bold;
+}
+.internal {
+	color: green;
+	font-weight: bold;
+}
+.data-transfer, .incoming-data {
+	font-style: italic;
+	font-size: .8em;
+}
